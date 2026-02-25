@@ -1,0 +1,175 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(
+        135deg,
+        #fffdba,
+        #aac2a8,
+        #b5e4f7
+    );
+    color: rgb(5, 5, 5);
+}
+
+
+/*Cabeçalho*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0));
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Trocar a cor para um degrade*/
+.logo span {
+    background: linear-gradient(to right, #009c3b, #ffdf00, #002776);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.menu a:hover,
+.menu .active {
+    color: #fff;
+}
+
+/* Destaque com Imagem*/
+.hero {
+    height: 115vh;
+    background: url("https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcK5d4_e34Q2O_Ifg8gMWttiSAVSKqFk0lP0na9Yh_rbRiAng0flooEUH7sf5rAU2kt-O_MXd-SOKC3JtZUFbQZSK1IRjqG7gqtQ.jpg?r=30d") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    position: relative;
+    color: rgb(254, 246, 137);
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: rgb(255, 246, 74)
+}
+
+.descricao {
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    background:#74d46c;
+    text-decoration: none;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #2ac71b;
+}
+
+/* ================= SECTIONS ================= */
+.section {
+    padding: 30px 40px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 22px;
+}
+
+.arrows button {
+    background:#276222;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.arrows button:hover {
+    background:#197011;
+}
+
+/* ================= CARDS ================= */
+.cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.card {
+    min-width: 260px;
+    background: #f7fae3;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 340px;
+    object-position: center;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.card h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.card button {
+    background: #276222;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #2ac71b;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
