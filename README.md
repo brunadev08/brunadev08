@@ -55,4 +55,4 @@ Apaixonada por tecnologia, design e criação de interfaces.
 
 ## 🐍 Minhas contribuições
 
-![Snake animation](https://github.com/SEUUSUARIO/SEUUSUARIO/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/brunadev08/brunadev08/blob/output/github-contribution-grid-snake.svg)
