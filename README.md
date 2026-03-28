@@ -1,7 +1,7 @@
 <h1 align="center">Olá, eu sou a Bruna 👋</h1>
 
 <p align="center">
-Desenvolvedora Front-End em formação 💻 <br>
+Desenvolvedora Front-End 💻 <br>
 Apaixonada por tecnologia, design e criação de interfaces.
 </p>
 
@@ -52,7 +52,3 @@ Apaixonada por tecnologia, design e criação de interfaces.
 ---
 
 ⭐ Obrigada por visitar meu perfil!
-
-## 🐍 Minhas contribuições
-
-![Snake animation](https://github.com/brunadev08/brunadev08/blob/output/github-contribution-grid-snake.svg)
